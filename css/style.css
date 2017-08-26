@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+    background-color: #E1E1E1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: black;
+    height: 100%;
+    width: 15%;
+    padding: 2% 5% 100% 1%;
+    z-index: 2000;
+    display: none;
+    position: fixed;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin-top: 10%;
+}
+
+nav > ul > li {
+    padding: 10%;
+    font-size: 2em;
+}
+
+nav > ul > li > a {
+    color: white;
+}
+
+#navbutton {
+    display: block;
+}
+
+#buy {
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    background-color: orange;
+}
+
+#search {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    background-color: #C6C6C6;
+    padding: 0px 5px 8px 2px;
+}
+
+#search > input {
+    border: 0px;
+    background-color: #C6C6C6;
+}
+
+#search > input:focus {
+    outline: none;
+}
+
+#search > img {
+    height: 15px;
+    width: 15px;
+    margin: 10px 1px 2px 10px;
+    display: inline-block;
+    top: 10px;
+}
+
+#shownav {
+    display: inline-block;
+    position: relative;
+    top: 32px;
+}
